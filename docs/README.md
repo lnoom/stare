@@ -3,35 +3,22 @@
 ### **概述**
 - [计算机基础](计算机基础/计算机基础)
 ---
-
 ##  Java
-
 ---
-
 > [!NOTE]
 >
 > Java 是由 Sun Microsystems 公司于 1995 年 5 月推出的 Java 面向对象程序设计语言和 Java 平台的总称。由 James Gosling和同事们共同研发，并在 1995 年正式推出。后来 Sun 公司被 Oracle （甲骨文）公司收购，Java 也随之成为 Oracle 公司的产品。
-
 ### Java 基础
-
-- [Java 小白成长记 · 第 1 篇「万物皆对象」](java/javaweb第一天笔记)
-
+- [Java 小白成长记](java/javaweb第一天笔记)
 ### Java 单词
-
 - [Java 编程语言单词汇总](java/Java 编程语言单词汇总)
-
 ### 设计模式
-
 > [!NOTE]
 > 设计模式是**解决问题的方案**，学习现有的设计模式可以做到经验复用。拥有设计模式词汇，在沟通时就能用更少的词汇来讨论，并且不需要了解底层细节。
-
 - 设计模式七大原则
 - 二十三种设计模式 <span data-v-73ca276e="" class="badge warning" style="vertical-align: base-line;">Vital</span>
-
 ## 必备框架
-
 ---
-
 > [!WARNING|label:注意区分下数据库和 ORM 框架！]
 > 
 >**数据库**：存储数据。常见的数据库如：
@@ -46,7 +33,6 @@
 > - Hibernate（常见组合为 Spring Boot + Hibernate + Spring Data JPA + 数据库）
 
 ### SSM
-
 - 1 - **Spring (Framework)**
   - 1.1 - Spring 简介 + Spring IoC 详解 <span data-v-73ca276e="" class="badge warning" style="vertical-align: base-line;">Vital</span>
   - 1.2 - Spring IoC 容器源码分析
@@ -64,39 +50,24 @@
 - 4 - SSM 框架整合实例
 
 ### Spring Boot 2.x
-
 1 - Spring Boot 入门
-
 2 - 配置文件
-
 3 - 自定义 starter
-
 4 - 日志
-
 5 - Web 开发
-
 7 - Web 开发 - 实战案例
-
 6 - SpringBoot 前后端数据交互的几种常用方式 ⭐ 
-
 8 - SpringBoot 与数据访问
-
 9 - **Spring Data JPA**
-
 - 🛫 Spring Boot + Spring Data JPA 一篇文章快速入门
 - 9.1 - 实体类映射到数据库表的基本注解
 - 9.2 - 表之间的映射关系
 - 9.3 - Spring Data JPA 的四种查询方式
 - 9.4 - Spring Data JPA 的更新方式详解
-
 10 - 异步、定时、邮件任务
-
 11 - 集成 Redis（Lettuce）
-
 <u> SpringBoot 面试指南</u>
-
 [开源社区系统 — Echo](https://github.com/Veal98/Echo)：基于 SpringBoot + MyBatis + MySQL + Redis + Kafka + Elasticsearch + Spring Security + ... 并提供详细的开发文档和配套教程 <span data-v-73ca276e="" class="badge recommendation" style="vertical-align: base-line;">项目经验首选</span>
-
 ### Netty 4.x
 
 > [!Note]
@@ -119,9 +90,7 @@
 - <u> Netty 面试指南</u>
 
 ##  mysql
-
 ---
-
 ### 学成在线
 
 > MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。
@@ -129,47 +98,29 @@
 [MYSQL基础](mysql/MYSQL基础)
 
 ##  工具
-
 ---
-
 ### Git
-
 ### Docker
-
 ## 图书管理系统
-
 ---
-
 ### 图书管理系统
-
 - [图书管理系统](图书管理系统/图书管理系统)
-
 ### 图书管理系统需求调研提纲
-
 - [图书管理系统需求调研提纲](图书管理系统/图书管理系统需求调研提纲)
-
 ### 图书管理系统软件开发模型确认
-
 - [图书管理系统软件开发模型确认](图书管理系统/图书管理系统软件开发模型确认)
-
 ##  hexo
-
 ---
-
 ### Hexo博客使用gulp压缩静态资源进行优化
-
 Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的，利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。Gulp.js 源文件和你用来定义任务的 Gulp 文件都是通过 JavaScript（或者 CoffeeScript ）源码来实现的。
 
   - [Hexo博客使用gulp压缩静态资源进行优化](hexo/Hexo博客使用gulp压缩静态资源进行优化)
 
 ### Hexo-xr
-
   - [Hexo-xr](hexo/Hexo-xr)
 
 ##  网页源码
-
 ---
-
 ### 品优购
 
 > [!TIP]
@@ -177,23 +128,17 @@ Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发
 
   - [品优购](网页源码/品优购)
   - [品优购进阶版](网页源码/品优购进阶版)
-
 ---
-
 ### 学成在线
 
 > 学成在线借鉴了MOOC(大型开放式网络课程，即MOOC(massive open online courses))的设计思想，是一 个提供IT职业课程在线学习的平台，它为即将和已经加入IT领域的技术人才提供在线学习服务，用户通过在线学 习、在线练习、在线考试等学习内容，最终掌握所学的IT技能，并能在工作中熟练应用。
-
 - [学成在线](网页源码/学成在线)
-
 ### 仿哔哩哔哩
 
 > bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。以下是B站主页静态代码下载地址及页面展示。
-
 - [仿哔哩哔哩](网页源码/仿哔哩哔哩)
 
 ### 仿哔哩哔哩
-
 - [吃热狗程序开发](网页源码/吃热狗程序开发)
 
 ## 博客笔记汇总
@@ -207,9 +152,7 @@ Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发
 - [落雪音乐助手](落雪/落雪音乐助手)
 
 ##  其他
-
 ---
-
 ## 公众号
 
 一个正在追梦的少年。关注我，陪有梦想的你一起成长。

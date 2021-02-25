@@ -11,4 +11,4 @@
     * [ 落雪音乐助手](README?id=落雪音乐助手)
     * [ 其他](README?id=其他)
 * [公众号](README?id=公众号)
-* [博客](https:noom.ml)
+* [博客](https://noom.ml)
